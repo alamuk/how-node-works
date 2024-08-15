@@ -24,7 +24,7 @@ require('./test-module-3')();
 require('./test-module-3')();
 require('./test-module-3')();
 
-// caching
+//NOTE: caching
 // this module loaded just once
 // then every time calling the function - it shows the exports module from caching
 // and that why we can see the first 'Hello from the module' once. as rest is coming from caching.
