@@ -2,6 +2,9 @@
 ### it requires events module 
 new class object
 
+### create a new class by copy of other class 
+we call—instance
+* const calc1 = new C()
 Event emitter has method which listening of the emit function every time when is the event happened.
 
 ## on 
@@ -104,6 +107,11 @@ require('express')
 ```
 
 ## what a module gets: 
+```javascript
+console.log(arguments);
+console.log(require('module').wrapper);
+```
+
 (function ( require, export, module, __filename, __dirname ))
 * require('') = function = function to require module
 * module = object = reference to the current module.
