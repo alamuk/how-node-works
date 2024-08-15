@@ -103,7 +103,7 @@ just module name
 require('express')
 ```
 
-## what module get: 
+## what a module gets: 
 (function ( require, export, module, __filename, __dirname ))
 * require('') = function = function to require module
 * module = object = reference to the current module.
